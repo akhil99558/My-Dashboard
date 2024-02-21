@@ -1,7 +1,7 @@
 {
   "homepage":"http://akhil99558.github.io/My-Dashboard",
   "name": "dash-res",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
