@@ -14,12 +14,14 @@ import {
     mongodb,
     git,
     figma,
+    drone,
     docker,
     meta,
     starbucks,
     tesla,
     shopify,
     carrent,
+    eda,
     jobit,
     tripguide,
     threejs,
@@ -283,7 +285,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: eda,
       source_code_link: "https://github.com/akhil99558/EDA_/blob/main/bank.ipynb",
     },
     {
@@ -308,7 +310,7 @@ import {
 
         },
       ],
-      image: jobit,
+      image: drone,
       source_code_link: "https://github.com/akhil99558/Icarus",
     }
   ];

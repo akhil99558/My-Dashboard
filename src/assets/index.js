@@ -29,12 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import eda from "./eda.png";
+import drone from "./drone.jpeg";
 
 export {
   logo,
   backend,
   creator,
   mobile,
+  drone,
   web,
   github,
   menu,
@@ -49,6 +52,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  eda,
   tailwind,
   typescript,
   threejs,
