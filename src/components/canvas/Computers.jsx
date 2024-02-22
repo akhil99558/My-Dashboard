@@ -6,6 +6,8 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  //const computer = useGLTF("./sora_-_kingdom_hearts_ii_-_nightmare/scene.gltf");
+
 
   return (
     <mesh>
