@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import eda from "./eda.png";
 import drone from "./drone.jpeg";
+import quest from"./quest.jpg";
 
 export {
   logo,
@@ -52,6 +53,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  quest,
   eda,
   tailwind,
   typescript,

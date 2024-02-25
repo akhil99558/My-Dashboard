@@ -17,6 +17,7 @@ import {
     drone,
     docker,
     meta,
+    quest,
     starbucks,
     tesla,
     shopify,
@@ -312,6 +313,14 @@ import {
       ],
       image: drone,
       source_code_link: "https://github.com/akhil99558/Icarus",
+    },
+    {
+      name: "Coming Soon",
+      description:"",
+      tags: [],
+      image: quest,
+      source_code_link: "",
+
     }
   ];
   
