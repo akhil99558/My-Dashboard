@@ -24,6 +24,7 @@ import {
     carrent,
     eda,
     jobit,
+    dashboard,
     tripguide,
     threejs,
   } from "../assets";
@@ -313,6 +314,30 @@ import {
       ],
       image: drone,
       source_code_link: "https://github.com/akhil99558/Icarus",
+    },    {
+      name: "My Dashboard",
+      description: "My dashboard to keep track of all my projects in a visually appleasing manner. The website is deployed using Vercel",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ThreeJs",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"Tailwind CSS",
+          color:"blue-text-gradient",
+
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/akhil99558/My-Dashboard?tab=readme-ov-file",
     },
     {
       name: "Coming Soon",

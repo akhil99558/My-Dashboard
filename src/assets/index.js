@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import eda from "./eda.png";
 import drone from "./drone.jpeg";
 import quest from"./quest.jpg";
+import dashboard from "./dashboard_start.png"
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   tesla,
   carrent,
   jobit,
+  dashboard,
   tripguide,
 };
