@@ -27,6 +27,7 @@ import {
     dashboard,
     tripguide,
     threejs,
+    js,
   } from "../assets";
   
   export const navLinks = [
@@ -338,6 +339,29 @@ import {
       ],
       image: dashboard,
       source_code_link: "https://github.com/akhil99558/My-Dashboard?tab=readme-ov-file",
+    },{
+      name: "Compilation of Js Projects",
+      description:"A compilation of small js projects done as part of a minor one-month internship",
+      tags: [
+        {
+          name:"CSS",
+          color:"blue-text-gradient",
+
+        },
+        {
+          name:"HTML",
+          color:"pink-text-gradient",
+
+        },
+        {
+          name:"JavaScript",
+          color:"green-text-gradient",
+
+        }
+
+      ],
+      image: js,
+      source_code_link:"https://github.com/akhil99558/Intern_Army",
     },
     {
       name: "Coming Soon",

@@ -33,9 +33,11 @@ import eda from "./eda.png";
 import drone from "./drone.jpeg";
 import quest from"./quest.jpg";
 import dashboard from "./dashboard_start.png"
+import js from "./js.png"
 
 export {
   logo,
+  js,
   backend,
   creator,
   mobile,
