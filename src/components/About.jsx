@@ -13,7 +13,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full bg-gradient-to-r from-slate-500 to-red-800 p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -25,7 +25,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt='service-icon'
           className='w-16 h-16 object-contain'
         />
 
@@ -49,11 +49,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled student with experience in various technologies such as Machine Learning, Deep Learning,RTL,NN and
-        Web Developement, and expertise in frameworks like React, Node.js,PyTorch,Salesforce and
-        Three.js. I'm a quick learner and am looking for a internship where-in I can display and hone
-        my  skills to work on real projects alongside experienced professionals. My goal is to make an 
-        impact by developing my skills to the best of my abilities.
+        I am currently working as a Winter Analyst Intern at Deloitte USI. My skills include Machine Learning, 
+        Deep Learning, Web Development, and frameworks like React, Node.js, PyTorch, and Salesforce. I aim to 
+        continuously enhance my expertise and contribute to impactful projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
