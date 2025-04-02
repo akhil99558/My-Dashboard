@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-
+import pic from '../assets/Akhil_o.jpg'
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto bg-gradient-to-r from-slate-500 to-red-800`}>
@@ -13,13 +13,18 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className="flex flex-col items-center">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Akhil Samsun Mende
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             In my final year of Btech and currently interning at Deloitte USI
           </p>
+          <img 
+            src={pic} 
+            alt="Profile" 
+            className="w-52 h-52 rounded-full object-cover mt-8"
+          />
         </div>
       </div>
 
